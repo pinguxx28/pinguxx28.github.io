@@ -7,7 +7,7 @@ html, body {
 header {
     padding: 20px;
     text-align: justify;
-    background-color: rgb(78, 78, 78);
+    background-color: #444;
     color: white;
     font-size: 20px;
     top: 0;
@@ -46,9 +46,18 @@ footer {
 .projects {
     padding: 70px;
     color: white;
+    background-color: #555;
     font-size: 16px;
 }
 
 .pageheader {
     margin-left: 40px;
+}
+
+.projectlist a {
+    color: rgb(100, 179, 255);
+}
+
+.projectlist li {
+    font-size: 16px;
 }
