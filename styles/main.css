@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 20px;
+    text-align: justify;
+    background-color: rgb(78, 78, 78);
+    color: white;
+    font-size: 20px;
+    top: 0;
+}
+
+footer {
+    bottom: 0;
+}
+
+.navul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+
+.navli {
+    float: left;
+}
+
+.navli a {
+    font-size: 20px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 28px;
+    text-decoration: none;
+}
+
+.navli a:hover {
+    background-color: #111;
+}
+
+.projects {
+    padding: 70px;
+    color: white;
+    font-size: 16px;
+}
+
+.pageheader {
+    margin-left: 40px;
+}
