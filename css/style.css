@@ -6,126 +6,32 @@
 }
 
 :root {
-	/* header colors */
-	--hdr-fgc: #222;
-	--hdr-bgc-1: #fff;
-	--hdr-bgc-2: #999;
 	--hdr-bgc-title: #ccc;
-
-	/* main section colors */
-	--main-fgc: #fff;
-	--main-bgc-1: #255b98;
-	--main-bgc-2: #1a7f78;
-	/* links */
-	--main-fgc-link-unv: #a6ffcb;
-	--main-fgc-link-v:   #dda2ff;
-
-	/* footer */
-	--footer-bgc-a: #696969;
-	--footer-bgc-a-hover: #595959;
-	/* links */
-	--footer-fgc-a-unv: #77ffb0;
-	--footer-fgc-a-v: #edcdff;
-}
-
-html {scroll-behavior: smooth;}
-
-body {
-	/* reset defaults */
-	margin: 0;
-	padding: 0;
-
-	text-rendering: optimizeSpeed;
-
-	/* set font */
-	line-height: 1.3;
-	font-family: Alaska, Arial;
-	letter-spacing: .5px;
 }
 
 * {
-	/* reset defaults */
 	margin: 0;
 	padding: 0;
 }
 
+body {
+	line-height: 1.3;
+	font-family: Alaska, Arial;
+	letter-spacing: .5px;
 
-
-
-/* * Header */
+	background-color: #eee;
+}
 
 #header, header {
-	/* colors, to 🍀lively🌈 up the place */ 
-	background: linear-gradient(120deg, var(--hdr-bgc-1), var(--hdr-bgc-2));
-	color: var(--hdr-fgc); 
-
-	padding: 30px; /* set padding to make the children appear more of inside a box, rather than a barrier */
-	
-	list-style-image: url("../images/list-style-image-black.png"); /* make the list dots, black angle brackets > 🌝 */
+	padding: 30px;
 }
-#header-title {
-	/* make the background rectangle a 🌞 nice shape */
-	width: min-content;
-	padding: 30px 40px 20px 40px;
-	border-radius: 20px;
 
-	font-weight: bolder;
-	
-	/* set the colors to add some 🪴beautifulness🪴 */
+#header-title {
+	width: max-content;
+	padding: 30px 40px 20px 40px;
+	border-radius: 5px;
 	background-color: var(--hdr-bgc-title);
 }
-#header-about-section {
-	margin-top: 20px;
-}
-
-
-
-/* * Main */
-#projects, main {
-	/* colors, to 🍀lively🌈 up the place */ 
-	background: linear-gradient(120deg, var(--main-bgc-1), var(--main-bgc-2));
-	color: var(--main-fgc);
-
-	padding: 30px; /* set a padding to help it look 🌻 neater and help people with 👻 claustrophobia */
-
-	list-style-image: url("../images/list-style-image-white.png"); /* make the list dots, white angle brackets > 🌝 */
-}
-#projects a:link, main a:link {
-	/* make the links stand out 🍍 more from the background */
-	color: var(--main-fgc-link-unv);
-	font-weight: bolder;
-}
-#projects a:visited, main a:link {
-	/* make the visited links 🍊 stand out from unvisited links and the background */
-	color: var(--main-fgc-link-v);
-	font-weight: bolder;
-}
-#projects-title {}
-#projects-sub-title {
-	margin-top: 30px; /* separate 🇩🇪 the sub title from the title */ 
-}
-
-
-
-/* * Footer */
-#footer, footer {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	background-color: var(--footer-bgc-a);
-}
-#footer a, footer a {
-	float: left;
-	padding: 20px;
-	text-decoration: none;
-}
-#footer a:link {color: var(--footer-fgc-a-unv);}
-#footer a:visited {color: var(--footer-fgc-a-v);}
-#footer a:hover, footer a:hover {background-color: var(--footer-bgc-a-hover);}
-
-
-
 
 /* * General */
 ul {
