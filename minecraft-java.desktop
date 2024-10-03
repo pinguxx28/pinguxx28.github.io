@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/home/fornamn.efternamn/Hämtningar/minecraft-launcher/minecraft-launcher
+Name=MC Java
+Comment=Minecraft Java edition
+Icon=/home/fornamn.efternamn/Bilder/minecraft-java-icon.png

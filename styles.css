@@ -1,5 +1,14 @@
 body {
-	margin: 0,
-	padding: 0,
-	font-family: Arial,
+	margin: 0;
+	padding: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+kbd {
+	background-color: #ddd;
+}
+
+tt {
+	background-color: #ddd;
+	padding: 2px;
 }
